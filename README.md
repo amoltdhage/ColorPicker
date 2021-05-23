@@ -1,8 +1,9 @@
 # ColorPicker
 
 <ul>
-**<li> Apple released several updates for UIKit including the new ColorPicker <br /> </li>** 
+**<li>Apple released several updates for UIKit including the new ColorPicker</li>** 
 
+<br />
 
 **<li> Grid : <br /> </li>**
 The first view that shows up and allows to select colors from is a grid, with a range of colors being available as shown in the above image.
