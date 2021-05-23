@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HpJ-FJ-nWN">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="VJ0-bB-qCL">
+            <objects>
+                <viewController id="HpJ-FJ-nWN" customClass="ViewController" customModule="ColorPicker_Youtube" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lzg-d4-Y76">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ghh-4J-ZEH">
+                                <rect key="frame" x="130.5" y="433" width="153" height="30"/>
+                                <state key="normal" title="Pick background color"/>
+                                <connections>
+                                    <action selector="btnPickBackgroundColorTapped:" destination="HpJ-FJ-nWN" eventType="touchUpInside" id="ktI-jZ-zt8"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="37z-Uz-31e">
+                                <rect key="frame" x="157" y="104" width="100" height="100"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="MIU-b2-MhO"/>
+                                    <constraint firstAttribute="height" constant="100" id="xto-Lp-omP"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="h1D-ls-Py4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ghh-4J-ZEH" firstAttribute="centerY" secondItem="lzg-d4-Y76" secondAttribute="centerY" id="57e-gM-npZ"/>
+                            <constraint firstItem="ghh-4J-ZEH" firstAttribute="centerX" secondItem="lzg-d4-Y76" secondAttribute="centerX" id="Hm7-3Q-ocN"/>
+                            <constraint firstItem="37z-Uz-31e" firstAttribute="top" secondItem="h1D-ls-Py4" secondAttribute="top" constant="60" id="kIE-SZ-Az9"/>
+                            <constraint firstItem="37z-Uz-31e" firstAttribute="centerX" secondItem="lzg-d4-Y76" secondAttribute="centerX" id="pt2-rh-oj3"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m0D-eI-mQc" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="80" y="72"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
