@@ -1,7 +1,7 @@
 # ColorPicker
 
 <ul>
-<li> **Apple released several updates for UIKit including the new ColorPicker**</li> 
+<li>Apple released several updates for UIKit including the new ColorPicker</li> 
 
 
 **<li> Grid : <br /> </li>**
