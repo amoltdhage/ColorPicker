@@ -5,7 +5,7 @@
 
 
 **<li> Grid : <br /> </li>**
-The first view that shows up and allows to select colors from is a grid, with a range of colors being available as shown in the above image.
+The first view that shows up and allows to select colors from is a grid, with a range of colors being available as shown in the below image.
 
 ![Screenshot](https://github.com/amoltdhage/ColorPicker/blob/main/Simulator%20Screen%20Shot%20-%20iPhone%207%20-%202021-05-23%20at%2019.53.14.png)
 
